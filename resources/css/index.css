@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Helvetica, Univers, Futura;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+/*	display: flex; */
+}
+
+/*  GLOBAL STYLES  */
+
+.main {
+	/* display: flex; */
+	padding-top: 62px;
+	justify-content: center;
+	width: 1200px;
+}
+
+/* NAV BAR */
+
+.heading {
+	height: 69px;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	background-color: black;
+	top: 0px;
+	left: 0px;
+
+}
+
+.logo {
+	height: 50px;
+	width: auto;
+	align-items: center;
+	padding-left: 10px;
+}
+
+.nav {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	
+	
+}
+
+.nav a {
+	list-style: none;
+	color: seashell;
+	padding: 5px 10px;
+	text-decoration: underline;
+	
+
+}
+
+/* LANDING PAGE */
+
+.landing {
+	display: flex;
+	width: 1200px;
+	height: 700px;
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+	margin-top: 69px;
+	
+	align-items: center;
+	top: 50%;
+	margin: 0;
+	
+}
+
+.titles {
+	background-color: black;
+	width: 1200px;
+	align-items: center;
+}
+
+.titles h2 {
+	padding: 0px;
+}
+
+
+/*  TEA OF THE MONTH  */
+
+.month {
+	width: 1000px;
+	display: flex;
+}
+
+.month img {
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+	padding: 0px;
+	margin: 0px;
+}
+
+.article {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 15px;
+}
+
+.article h4 {
+	padding: 0px;
+	margin: 10px;
+}
+
