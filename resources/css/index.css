@@ -192,7 +192,7 @@ body {
 .locationpage {
 	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
 	width: 1200px;
-	height: 500px;
+	height: 600px;
 	align-items: center;
 	justify-content: center;
 	object-fit: cover;
