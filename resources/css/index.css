@@ -8,7 +8,8 @@ body {
 	background-color: black;
 	opacity: 0.9;
 	text-align: center;
-	width: 100%;
+	width: 1200px;
+	margin: 10px;
 /*	display: flex; */
 }
 
@@ -97,37 +98,52 @@ body {
 	justify-content: center;
 }
 
-.month {
+/*.month {
 	width: 1200px;
 	height: auto;
-	display: inline-flex;
+	display: inline-flex; 
 	flex-direction: column;
 	margin: auto;
 	position: relative;
+} */
+
+
+/*  TEA PAGE */
+
+.teapage {
+	width: 1000px;
+	height: auto;
+/*	display: inline-flex; */
+	align-items: center;
 }
 
-.month img {
+.teapage titles2 {
+	width: 100%;
+	flex-basis: 100%;
+	flex-wrap: wrap;
+}
+
+.article img {
 	width: 300px;
 	height: 200px;
-	object-fit: cover;
+	object-fit: fill;
 	padding: 0px;
 	margin: 0px;
 }
 
-.articles {
+*.articles {
 	display: flex;
-	height: auto;
 	width: 100%;
-	flex-direction: row;
+	height: auto;
 	align-items: center;
 	justify-content: center;
-}
+	flex-wrap: wrap;
+}  
 
 .article {
 	display: flex;
 	flex-direction: column;
 	padding: 20px 15px;
-	position: relative;
 }
 
 .article h4 {
@@ -137,8 +153,65 @@ body {
 
 /*  LOCATIONS */
 
-.locations {
+.locationpage {
 	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+	width: 1200px;
 	height: 500px;
+	align-items: center;
+	justify-content: center;
+	object-fit: cover;
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.locations {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	top: 50%;
+}
+
+.locationpage h2 {
+	padding-top: 7%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	/*flex-basis: 100%;
+	flex-wrap: wrap; */
+}
+
+.location {
+	background-color: black;
+	width: 300px;
+	margin: 15px 20px;
+	opacity: 1;
+	flex-direction: row;
+	paddnig: 5px 50px;
+}
+
+.location h3 {
+	margin: 0px;
+	padding-top: 20px;
+}
+
+.location p {
+	line-height: 300%;
+	padding: 0px 15px;
+	margin-bottom: 10px;
+}
+
+/*  FOOTER  */
+
+.footer {
+	height: 200px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.copyright {
+	padding: 0px;
+	padding-left: 20px;
+	margin: 0px;
+	text-align: left;
 }
 
