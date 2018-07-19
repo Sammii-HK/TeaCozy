@@ -8,16 +8,17 @@ body {
 	background-color: black;
 	opacity: 0.9;
 	text-align: center;
+	width: 100%;
 /*	display: flex; */
 }
 
 /*  GLOBAL STYLES  */
 
 .main {
-	/* display: flex; */
+	display: inline-block;
 	padding-top: 62px;
 	justify-content: center;
-	width: 1200px;
+	max-width: 1200px;
 }
 
 /* NAV BAR */
@@ -87,9 +88,22 @@ body {
 
 /*  TEA OF THE MONTH  */
 
-.month {
-	width: 1000px;
+.titles2{
 	display: flex;
+	flex-direction: column;
+	width: 1200px;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.month {
+	width: 1200px;
+	height: auto;
+	display: inline-flex;
+	flex-direction: column;
+	margin: auto;
+	position: relative;
 }
 
 .month img {
@@ -100,14 +114,31 @@ body {
 	margin: 0px;
 }
 
+.articles {
+	display: flex;
+	height: auto;
+	width: 100%;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
 .article {
 	display: flex;
 	flex-direction: column;
 	padding: 20px 15px;
+	position: relative;
 }
 
 .article h4 {
 	padding: 0px;
 	margin: 10px;
+}
+
+/*  LOCATIONS */
+
+.locations {
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+	height: 500px;
 }
 
