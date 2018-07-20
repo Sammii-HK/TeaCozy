@@ -40,6 +40,7 @@ body {
 
 
 
+
 /* NAV BAR */
 
 .heading {
@@ -80,6 +81,7 @@ body {
 
 
 
+
 /* LANDING PAGE */
 
 .landing {
@@ -115,6 +117,7 @@ body {
 
 
 
+
 /*  TEA OF THE MONTH  */
 
 .teapage {
@@ -145,22 +148,6 @@ body {
 	padding: 10px;
 	margin: 0px;
 }
-
-/*.month {
-	width: 1200px;
-	height: auto;
-	display: inline-flex; 
-	flex-direction: column;
-	margin: auto;
-	position: relative;
-} */
-
-
-/*.teapage titles2 {
-	width: 100%;
-	flex-basis: 100%;
-	flex-wrap: wrap;
-} */
 
 .article img {
 	width: 300px;
@@ -201,7 +188,6 @@ body {
 	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
 	width: 1200px;
 	height: 575px;
-	/*justify-content: center;*/
 	align-items: center;
 	object-fit: cover;
 	display: inline-flex;
@@ -214,17 +200,12 @@ body {
 	padding: 0px;
 	padding-top: 80px;
 	padding-bottom: 5px;
-	/*flex-basis: 100%;
-	flex-wrap: wrap; */
 }
 
 .locations {
 	display: inline-flex;
 	justify-content: center;
 	align-content: center;
-	/* vertical-align: middle;
-	top: 50%;
-	left: 50%; */
 }
 
 .location {
